@@ -1,5 +1,5 @@
 let image = document.getElementById("image");
-let images = ["./asset/img-slide1.jpg","./asset/img-slide2.jpg","./asset/img-slide3.jpg"];
+let images = ["./img-slide1.jpg","./img-slide2.jpg","./img-slide3.jpg"];
 
 setInterval(function(){
     let random = Math.floor(Math.random()*3);
